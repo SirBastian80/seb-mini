@@ -1,11 +1,11 @@
 input.onButtonPressed(Button.A, function () {
-    PositionX += 1
+    PositionX += -1
     if (PositionX <= 0) {
         PositionX = 1
     }
 })
 input.onButtonPressed(Button.B, function () {
-    PositionX += -1
+    PositionX += 1
     if (PositionX >= 5) {
         PositionX = 5
     }
